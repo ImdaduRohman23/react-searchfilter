@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <input type="text" className="search" placeholder='Search . . .' onChange={(e) => setSearch(e.target.value)} />
-      <Table data = {dataFilter(Users)} className='table'/>
+      <Table data = {dataFilter(Users)}/>
     </div>
   );
 }
