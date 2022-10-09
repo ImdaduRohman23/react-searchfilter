@@ -17,9 +17,24 @@
   text-align: center;
 }
 
-.list__item {
+/* ---------- STYLE TABLE ---------- */
+
+table {
+  margin-top: 20px;
+  width: 70%;
+  text-align: center;
+  border: 1px solid #444;
+}
+
+th {
   margin-bottom: 20px;
   font-size: 25px;
-  color: #444;
   font-weight: 300;
+}
+
+td {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #444;
+  font-weight: 250;
 }
